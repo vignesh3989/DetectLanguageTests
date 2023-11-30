@@ -1,3 +1,12 @@
+## Clone the Git Repo and install the modules
+You can also run the tests locally, you need to have the latest version of Node.js installed
+
+git clone https://github.com/vignesh3989/DetectLanguageTests.git
+npm install
+
+Once the project is cloned , run npm test or npm run test
+
+#Project Requirement:
 ## Installation
 
 npm install detectlanguage [--save]
