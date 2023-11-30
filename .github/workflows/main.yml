@@ -1,0 +1,17 @@
+name: API Tests CI
+on:
+    push:
+        branches: [main]  
+jobs:
+  build:
+    name: Run tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: "20.9"
+      - run: npm install
+      - run: npm install -g jest
+      - run: node node_modules/puppeteer/install.mjs
+      - run: npm run test

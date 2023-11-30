@@ -1,0 +1,22 @@
+{
+  "name": "demo",
+  "version": "2.1.0",
+  "description": "detect language automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "detectlanguage": "^2.1.0",
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^21.5.2"
+  }
+}
